@@ -53,17 +53,17 @@ Purpose
 -------
 Provides product-level sales performance metrics including:
 
-• Total Quantity Sold
-• Total Revenue
-• Total Profit
-• Revenue Rank
-• Profit Rank
+â€¢ Total Quantity Sold
+â€¢ Total Revenue
+â€¢ Total Profit
+â€¢ Revenue Rank
+â€¢ Profit Rank
 
 Business Questions Answered
 ---------------------------
-• Which products generate the highest revenue?
-• Which products generate the highest profit?
-• Which products sell the most units?
+â€¢ Which products generate the highest revenue?
+â€¢ Which products generate the highest profit?
+â€¢ Which products sell the most units?
 
 -------------------------------------------------------------*/
 
@@ -111,17 +111,17 @@ Purpose
 -------
 Provides category-level sales performance metrics including:
 
-• Total Quantity Sold
-• Total Revenue
-• Total Profit
-• Revenue Rank
-• Profit Rank
+â€¢ Total Quantity Sold
+â€¢ Total Revenue
+â€¢ Total Profit
+â€¢ Revenue Rank
+â€¢ Profit Rank
 
 Business Questions Answered
 ---------------------------
-• Which categories generate the highest revenue?
-• Which categories generate the highest profit?
-• Which categories sell the highest quantity?
+â€¢ Which categories generate the highest revenue?
+â€¢ Which categories generate the highest profit?
+â€¢ Which categories sell the highest quantity?
 
 -------------------------------------------------------------*/
 
@@ -154,19 +154,19 @@ Purpose
 -------
 Provides customer-level sales performance metrics including:
 
-• Total Orders
-• Total Quantity Purchased
-• Total Revenue
-• Total Profit
-• Revenue Rank
-• Profit Rank
+â€¢ Total Orders
+â€¢ Total Quantity Purchased
+â€¢ Total Revenue
+â€¢ Total Profit
+â€¢ Revenue Rank
+â€¢ Profit Rank
 
 Business Questions Answered
 ---------------------------
-• Which customers generate the highest revenue?
-• Which customers generate the highest profit?
-• Which customers purchase the most?
-• Which customers place the most completed orders?
+â€¢ Which customers generate the highest revenue?
+â€¢ Which customers generate the highest profit?
+â€¢ Which customers purchase the most?
+â€¢ Which customers place the most completed orders?
 
 -------------------------------------------------------------*/
 
@@ -219,19 +219,19 @@ analysis within the project.
 
 Information Included
 --------------------
-• Customer Information
-• Product Information
-• Category Information
-• Return Date
-• Return Reason
+â€¢ Customer Information
+â€¢ Product Information
+â€¢ Category Information
+â€¢ Return Date
+â€¢ Return Reason
 
 Role in the Reporting Layer
 ---------------------------
 This view acts as the base reporting layer for:
 
-• Product Return Analysis
-• Category Return Analysis
-• Return Reason Analysis
+â€¢ Product Return Analysis
+â€¢ Category Return Analysis
+â€¢ Return Reason Analysis
 -------------------------------------------------------------*/
 
 
@@ -279,16 +279,16 @@ sales performance with return information.
 
 KPIs Included
 -------------
-• Total Quantity Sold
-• Total Returns
-• Return Rate
-• Return Rank
+â€¢ Total Quantity Sold
+â€¢ Total Returns
+â€¢ Return Rate
+â€¢ Return Rank
 
 Business Questions Answered
 ---------------------------
-• Which products are returned the most?
-• Which products have the highest return rate?
-• Which products require quality or fulfillment improvements?
+â€¢ Which products are returned the most?
+â€¢ Which products have the highest return rate?
+â€¢ Which products require quality or fulfillment improvements?
 
 -------------------------------------------------------------*/
 CREATE VIEW vw_product_return_analysis AS
@@ -323,16 +323,16 @@ Analyzes return performance across product categories.
 
 KPIs Included
 -------------
-• Total Quantity Sold
-• Total Returns
-• Return Rate
-• Return Rank
+â€¢ Total Quantity Sold
+â€¢ Total Returns
+â€¢ Return Rate
+â€¢ Return Rank
 
 Business Questions Answered
 ---------------------------
-• Which categories experience the highest number of returns?
-• Which categories have the highest return rate?
-• Which categories require the greatest operational attention?
+â€¢ Which categories experience the highest number of returns?
+â€¢ Which categories have the highest return rate?
+â€¢ Which categories require the greatest operational attention?
 
 -------------------------------------------------------------*/
 
@@ -364,15 +364,15 @@ the primary drivers of customer returns.
 
 KPIs Included
 -------------
-• Total Returns
-• Return Percentage
-• Return Rank
+â€¢ Total Returns
+â€¢ Return Percentage
+â€¢ Return Rank
 
 Business Questions Answered
 ---------------------------
-• What are the most common reasons for product returns?
-• Which return reason contributes the highest percentage of returns?
-• Where should the business focus to reduce future returns?
+â€¢ What are the most common reasons for product returns?
+â€¢ Which return reason contributes the highest percentage of returns?
+â€¢ Where should the business focus to reduce future returns?
 
 -------------------------------------------------------------*/
 
@@ -401,14 +401,14 @@ Business KPIs Developed : 9
 
 Core SQL Concepts Demonstrated
 ------------------------------
-• INNER JOIN
-• GROUP BY
-• Aggregate Functions
-• Window Functions (DENSE_RANK)
-• Views
-• Derived Metrics
-• Business KPI Development
-• Reporting Layer Design
+â€¢ INNER JOIN
+â€¢ GROUP BY
+â€¢ Aggregate Functions
+â€¢ Window Functions (DENSE_RANK)
+â€¢ Views
+â€¢ Derived Metrics
+â€¢ Business KPI Development
+â€¢ Reporting Layer Design
 
 This reporting layer serves as the data source for the
 Power BI dashboard developed as part of this project.
