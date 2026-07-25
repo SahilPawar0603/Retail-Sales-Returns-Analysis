@@ -255,14 +255,11 @@ Potential enhancements for future versions of this project:
 
 # 👨‍💻 Author
 
-**Sahil Pawar**
-
+**Sahil Pawar**  
 Aspiring Data Analyst
 
-**GitHub:** https://github.com/SahilPawar0603
-
-**LinkedIn:** *(Add your LinkedIn profile link here)*
-
+- **GitHub:** [SahilPawar0603](https://github.com/SahilPawar0603)
+- **LinkedIn:** [Sahil Pawar](https://www.linkedin.com/in/sahil-pawar-7902a51a1/)
 ---
 
 ## ⭐ Support
